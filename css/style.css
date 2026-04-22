@@ -121,7 +121,8 @@ a {
 /* & Hero section styles */
 .hero {
   background-image:
-    linear-gradient(rgb(0, 0, 0, 0.85)), url("./images/hero-bg.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), 
+  url("../images/hero-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
