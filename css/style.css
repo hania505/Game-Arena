@@ -4,7 +4,7 @@
   --black: #0b0e13;
   --blue: #101828;
   --green: #05df72;
-  --light-gray:#364153;
+  --light-gray: #364153;
 }
 
 html {
@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 h5,
-h6,label {
+h6,
+label {
   font-family: "Days One", sans-serif;
 }
 a {
@@ -120,7 +121,7 @@ a {
 /* & Hero section styles */
 .hero {
   background-image:
-    linear-gradient(rgb(0, 0, 0, 0.85)), url(/images/hero-bg.jpg);
+    linear-gradient(rgb(0, 0, 0, 0.85)), url("./images/hero-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -338,17 +339,22 @@ h4 {
 .join-card div div:has(i):hover {
   opacity: 0.8;
 }
-input:focus,textarea:focus,select:focus {
+input:focus,
+textarea:focus,
+select:focus {
   background-color: var(--light-gray) !important;
   box-shadow: none !important;
-  border: 1px solid var(--main-color) !important; 
+  border: 1px solid var(--main-color) !important;
 }
-input::placeholder,textarea::placeholder,select::placeholder{
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
   font-weight: 600;
   font-size: 0.875rem;
 }
 /* & Footer Styles */
-.footer a:hover,.footer a:hover i {
+.footer a:hover,
+.footer a:hover i {
   color: var(--main-color) !important;
 }
 .footer a i {
